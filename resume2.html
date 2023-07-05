@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Resume</title>
+  <style>
+         body {
+      font-family: Arial, sans-serif;
+      background-image: url('back1.jpg'); 
+      background-color: #f4f4f4;
+      background-size: cover;
+      background-position: center;
+      margin: 0;
+      padding: 20px;
+    }
+    
+    .resume-container {
+      max-width: 800px;
+      margin: 0 auto;
+      background-color: #fff;
+      padding: 40px;
+      border-radius: 8px;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    }
+    
+    .resume-header {
+      text-align: center;
+      margin-bottom: 40px;
+    }
+    
+    .resume-header h1 {
+      font-size: 32px;
+      color: #333;
+      margin-bottom: 10px;
+    }
+    
+    .resume-header p {
+      font-size: 18px;
+      color: #555;
+      margin: 0;
+    }
+    
+    .resume-section {
+      margin-bottom: 40px;
+    }
+    
+    .resume-section h2 {
+      font-size: 24px;
+      color: #333;
+      margin-bottom: 10px;
+    }
+    
+    .resume-section p {
+      font-size: 18px;
+      color: #555;
+      margin-bottom: 20px;
+    }
+    
+    .resume-section ul {
+      list-style-type: disc;
+      margin-left: 20px;
+      padding: 0;
+    }
+    
+    .resume-section ul li {
+      font-size: 16px;
+      color: #666;
+      margin-bottom: 10px;
+    }
+    
+    .resume-section hr {
+      border: none;
+      border-top: 1px dashed #ddd;
+      margin: 20px 0;
+    }
+    
+    .resume-contact {
+      text-align: center;
+    }
+    
+    .resume-contact p {
+      font-size: 18px;
+      color: #555;
+      margin: 0;
+    }
+    
+    .resume-image {
+      display: block;
+      max-width: 200px;
+      margin: 0 auto;
+      border-radius: 50%;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+      margin-bottom: 40px;
+    }
+    
+    .resume-skills {
+      margin-bottom: 40px;
+    }
+    
+    .resume-skills h2 {
+      font-size: 24px;
+      color: #333;
+      margin-bottom: 10px;
+    }
+    
+    .resume-skills ul {
+      list-style-type: none;
+      padding: 0;
+    }
+    
+    .resume-skills ul li {
+      font-size: 16px;
+      color: #666;
+      margin-bottom: 10px;
+    }
+    
+    .resume-hobbies {
+      margin-bottom: 40px;
+    }
+    
+    .resume-hobbies h2 {
+      font-size: 24px;
+      color: #333;
+      margin-bottom: 10px;
+    }
+    
+    .resume-hobbies ul {
+      list-style-type: disc;
+      margin-left: 20px;
+      padding: 0;
+    }
+    
+    .resume-hobbies ul li {
+      font-size: 16px;
+      color: #666;
+      margin-bottom: 10px;
+    }
+    
+    .resume-participation {
+      margin-bottom: 40px;
+    }
+    
+    .resume-participation h2 {
+      font-size: 24px;
+      color: #333;
+      margin-bottom: 10px;
+    }
+    
+    .resume-participation ul {
+      list-style-type: disc;
+      margin-left: 20px;
+      padding: 0;
+    }
+    
+    .resume-participation ul li {
+      font-size: 16px;
+      color: #666;
+      margin-bottom: 10px;
+    }
+    
+    .resume-certification {
+      margin-bottom: 40px;
+    }
+    
+    .resume-certification h2 {
+      font-size: 24px;
+      color: #333;
+      margin-bottom: 10px;
+    }
+    
+    .resume-certification ul {
+      list-style-type: disc;
+      margin-left: 20px;
+      padding: 0;
+    }
+    
+    .resume-certification ul li {
+      font-size: 16px;
+      color: #666;
+      margin-bottom: 10px;
+    }
+    
+    .resume-biodata {
+      margin-bottom: 40px;
+    }
+    
+    .resume-biodata h2 {
+      font-size: 24px;
+      color: #333;
+      margin-bottom: 10px;
+    }
+    
+    .resume-biodata p {
+      font-size: 18px;
+      color: #555;
+      margin-bottom: 20px;
+    }
+
+    .resume-declaration {
+      text-align: right;
+      margin-top: 40px;
+    }
+
+    .resume-declaration img {
+      max-width: 120px;
+      margin-bottom: 10px;
+    }
+
+    .resume-declaration p {
+      font-size: 16px;
+      color: #777;
+      margin: 0;
+    }
+
+.next-button {
+      padding: 12px 24px;
+      background-color: #4CAF50;
+      color: white;
+      font-size: 18px;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+      transition: background-color 0.3s ease;
+      margin-top: 20px;
+      margin-bottom: 20px; /* Added margin-bottom */
+    }
+
+    .next-button:hover {
+      background-color: #45a049;
+    }
+
+  </style>
+</head>
+<body>
+  <div class="resume-container">
+    <div class="resume-header">
+      <h1>VISHNU M V</h1>
+      <p>3rd YEAR IT</p>
+    </div>
+    
+    <img src="vishnu.jpg" alt="Resume Image" class="resume-image">
+    
+    <div class="resume-section">
+      <h2>Summary</h2>
+      <p>Hello, my name is Vishnu M V and I am currently pursuing 3rd year B.Tech in Information Technology at Dr. N.G.P. Institute of Technology. I am a dedicated and enthusiastic individual with a passion for technology and its applications. Throughout my academic journey, I have developed a strong foundation in various aspects of Information Technology, including programming, database management, web development, and networking. I am constantly seeking opportunities to expand my knowledge and skills in these areas, and I am always eager to learn about emerging technologies and trends in the industry. Alongside my academic pursuits, I actively engage in extracurricular activities to enhance my overall development. I have participated in various coding competitions and hackathons, where I collaborated with a team to solve real-world problems using technology. </p>
+    </div>
+    <div class="resume-section">
+      <h2>Education</h2>
+      <h3>ST.JOSEPH'S MATRIC HIGHER SECONDARY SCHOOL |2006-2020|</h3>
+      <p class="sub-info">COMPLETED SECONDARY EDUCATION BY SCORING 73.4%</p>
+	<h3>UNIVERSAL MATRIC HIGHER SECONDARY SCHOOL  |2020-2021|</h3>
+      <p class="sub-info">COMPLETED HIGHER SECONDARY EDUCATION BY SCORING 84%</p>
+<h3>Dr.N.G.P. INSTITUTE OF TECHNOLOGY |2021-2025|</h3>
+      <p class="sub-info">Pursuing 3rd Year B.Tech IT</p>
+    </div>
+    
+    <div class="resume-participation">
+      <h2>Participation & Certifications</h2>
+      <ul>
+        <li>HACKATHON -1ST PRIZE [FAKE NUMBER PLATE DETECTION] IN BANNARI AMMAN INSTITUTE OF TECHNOLOGY</li>
+	<li>PARTCIPATED IN HACKATHON -TOP 10 [AUTOMATIC HAND SANITIZER] AT KGISL INSTITUTE OF TECHNOLOGY</li>
+	<li>PARTCIPATED IN 24hrs HACKATHON -TOP 10 [AUTOMATIC HAND SANITIZER] AT KUMARASAMY COLLEGE OF ENGINEERING</li>
+<li>PARTCIPATED IN FLASH CODE AT SREE KRISHNA INSTITUTE OF TECHNOLOGY</li>
+<li>PARTCIPATED IN CORPORATE HACKERS AT SNS COLLEGE OF ENGINEERING</li>
+<li>PARTCIPATED IN CODE DEBUGGING AT SREE KRISHNA INSTITUTE OF TECHNOLOGY</li>
+<li>PARTCIPATED IN E-GRAPHIE 4.0 AT JANSONS INSTITUTE OF TECHNOLOGY</li>
+<li>PARTCIPATED IN CODE DEBUGGING AT KARPAGAM COLLEGE OF ENGINEERING</li>
+      </ul>
+    </div>
+
+<div class="resume-participation">
+      <h2>Courses & Seminars</h2>
+      <ul>
+        <li>NPTEL-PROBLEM SOLVING THROUGH PROGRAMMING IN C</li>
+	<li>NPTEL-JOY OF PYTHON</li>
+	<li>2-DAYS NATIONAL LEVEL SEMINAR ON TOPIC WATER TECHNOLOGY FOR SUSTAINABLE DEVELOPMENT</li>
+      </ul>
+    </div>
+
+    <div class="resume-skills">
+      <h2>Extra-Curricular Activities</h2>
+      <ul>
+        <li>Member in UYIR club</li>
+	<li>Participated in dance during TECH FEST</li>
+      </ul>
+    </div>
+    
+    <div class="resume-skills">
+      <h2>Skills</h2>
+      <ul>
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>JavaScript</li>
+        <li>Python</li>
+        <li>C</li>
+      </ul>
+    </div>
+    
+    <div class="resume-hobbies">
+      <h2>Hobbies</h2>
+      <ul>
+        <li>Driving car</li>
+	<li>Dancing</li>
+        <li>Collecting car info</li>
+        <li>Exploring new places</li>
+      </ul>
+    </div>
+    
+
+    <div class="resume-biodata">
+      <h2>Biodata</h2>
+      <p>Date of Birth: September 10, 2003</p>
+      <p>Address: N9, Mannikandan Nagar, Sevandhamapalayam, Tirupur, Tamil Nadu,641606</p>
+      <p>Phone: 7907665638</p>
+      <p>Email: vishnumv@drngpit.ac.in</p>
+    </div>
+<a href="C:/Users/vijay/OneDrive/Desktop/resume/front%20page.html" class="next-button">Previous page</a>
+    <div class="resume-declaration">
+      <img src="signature.jpg" alt="Signature">
+      <p>Vishnu M V</p>
+    </div>
+  </div>
+</body>
+</html>
